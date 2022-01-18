@@ -112,30 +112,36 @@ body {
   }
 }
 
-.nav__items {
-  padding-left: 53px;
+.nav__link {
+  margin-left: 53px;
 }
 
-.nav__items:first-child {
+.nav__link:first-child {
   padding-left: 0;
 }
 
+.nav__link:hover {
+  color: #435f70;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+}
+
 @media (max-width: 890px) {
-  .nav__items {
-    padding-left: 30px;
+  .nav__link {
+    margin-left: 30px;
     font-size: 15px;
   }
 }
 
 @media (max-width: 430px) {
-  .nav__items {
-    padding-left: 12px;
+  .nav__link {
+    margin-left: 12px;
     font-size: 15px;
   }
 }
 
 @media (max-width: 354px) {
-  .nav__items {
+  .nav__link {
     font-size: 13px;
   }
 }
@@ -144,6 +150,9 @@ body {
   background: #ff9900;
   padding: 13px 0px 13px 24px;
   color: white;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+  border-radius: 3px;
 }
 
 .contact__block-a:hover {
@@ -235,6 +244,9 @@ body {
   padding: 9px 0px 9px 16px;
   display: inline-block;
   color: white;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+  border-radius: 3px;
 }
 
 .about-company__link:hover {
@@ -402,6 +414,13 @@ body {
 
 .project__list-item__link {
   color: #ff9900;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+  border-radius: 3px;
+}
+
+.project__list-item__link:hover {
+  color: #804d00;
 }
 
 .project__list-item__link::after {
@@ -493,6 +512,12 @@ body {
 .history__block-link {
   color: white;
   font-weight: normal;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+}
+
+.history__block-link:hover {
+  color: #ffad33;
 }
 
 .history__block-link::after {
@@ -586,6 +611,13 @@ body {
   padding-left: 55px;
   padding-top: 10px;
   padding-bottom: 10px;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+  border-radius: 3px;
+}
+
+.info__link:hover {
+  background: #804d00;
 }
 
 .info__link::after {
@@ -734,6 +766,13 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 116px;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+  border-radius: 3px;
+}
+
+.career__block-link:hover {
+  background: #804d00;
 }
 
 .career__block-link::after {
